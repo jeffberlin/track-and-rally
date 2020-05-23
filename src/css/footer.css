@@ -1,0 +1,11 @@
+.footer {
+  background: #000000;
+  border-top: 2px ;
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+.footer span {
+  color: #ffffff;
+  font-size: .8rem;
+  vertical-align: middle;
+}

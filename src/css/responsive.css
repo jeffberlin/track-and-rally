@@ -1,0 +1,50 @@
+@media (max-width: 1224px) {
+  .tag h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  .fb-page {
+    width: 400px;
+  }
+}
+
+@media (max-width: 991px) {
+  .about p, .contact p {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 1.6rem !important;
+  }
+
+  .fb-page {
+    width: 300px;
+  }
+
+  div.polaroid {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .about p:last-child, .contact p {
+    margin-bottom: 1.2rem;
+  }
+
+  .section {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+
+  .fb-page {
+    width: calc(100vw - 30px);
+  }
+}
+
+@media (max-width: 552px) {
+  .tag h1 {
+    font-size: 2.5rem;
+  }
+}

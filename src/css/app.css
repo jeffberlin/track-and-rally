@@ -1,0 +1,51 @@
+/*
+Green: #02c411
+Logo grey: #4D4D4D
+*/
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  text-align: inherit;
+}
+
+body {
+  webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.niveau {
+  font-family: niveau-grotesk-small-caps, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-center {
+  text-align: -webkit-center !important;
+  text-align: center;
+}
+
+a, a:hover {
+	text-decoration: none !important;
+	color: inherit;
+	outline: none;
+	cursor: pointer;
+}
+
+p, a, span, label {
+  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  letter-spacing: .5px;
+}
+
+.section {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.about p, .contact p {
+  font-size: 1.2rem;
+}
