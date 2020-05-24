@@ -12,7 +12,7 @@
   background-position: center;
   background-size: cover !important;
   background-repeat: no-repeat !important;
-  background: linear-gradient(rgba(251, 251, 251, 0.9), rgba(251, 251, 251, 0.9)), url(/images/track-and-rally-background.jpg);
+  background: linear-gradient(rgba(251, 251, 251, 0.9), rgba(251, 251, 251, 0.9)), url(/images/track-and-rally-background-min.jpg);
   border-bottom: 1px solid var(--green);
   /* Set rules to fill background */
   min-height: 100vh;
