@@ -19,7 +19,7 @@ function Contact() {
             <div className="polaroid" style={{ marginBottom: "1.2rem" }}>
               <Image
                 className="contact-img"
-                src="./images/dave-gregory-track.JPG"
+                src="./images/dave-gregory-track-min.jpg"
                 alt="Dave Gregory Miata"
               />
               <div className="img-text">
@@ -31,7 +31,7 @@ function Contact() {
             <div className="polaroid">
               <Image
                 className="contact-img"
-                src="./images/jump.jpg"
+                src="./images/jeff-berlin-rally-car-jump-min.jpg"
                 alt="Dave Gregory Miata"
               />
               <div className="img-text">
