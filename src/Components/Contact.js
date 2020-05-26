@@ -18,7 +18,7 @@ function Contact() {
           <Col lg={6} md={6} sm={12} className="text-center contact-polaroids">
             <div className="polaroid" style={{ marginBottom: "1.2rem" }}>
               <Image
-                className="contact-img"
+                className="contact-img lazyload"
                 src="./images/dave-gregory-track-min.jpg"
                 alt="Dave Gregory Miata"
               />
@@ -30,7 +30,7 @@ function Contact() {
             </div>
             <div className="polaroid">
               <Image
-                className="contact-img"
+                className="contact-img lazyload"
                 src="./images/jeff-berlin-rally-car-jump-min.jpg"
                 alt="Dave Gregory Miata"
               />
