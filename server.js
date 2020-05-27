@@ -15,3 +15,12 @@ app.get('/*', function (req, res) {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 app.listen(port);
+
+// For HSTS
+const helmet = require('helmet')
+
+// Sets "Strict-Transport-Security: max-age=5184000; includeSubDomains".
+const oneWeekInSeconds = 604800
+app.use(helmet.hsts({
+  maxAge: oneWeekInSeconds
+}))
