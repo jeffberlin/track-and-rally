@@ -2,7 +2,6 @@ import React, { Suspense } from 'react';
 import { Route, Switch } from "react-router-dom";
 import Home from './Components/Home';
 import Navigation from './Components/Navigation';
-// import Footer from './Components/Footer';
 import Error from './Components/Error';
 
 import './css/app.css';
