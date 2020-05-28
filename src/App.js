@@ -1,8 +1,6 @@
 import React, { Suspense } from 'react';
 import { Route, Switch } from "react-router-dom";
-import Home from './Components/Home';
 import Navigation from './Components/Navigation';
-import Error from './Components/Error';
 
 import './css/app.css';
 import './css/home.css';
@@ -12,6 +10,8 @@ import './css/responsive.css';
 import './css/about.css';
 import './css/contact.css';
 
+const Home = React.lazy(() => import('./Components/Home'));
+const Error = React.lazy(() => import('./Components/Error'));
 const Footer = React.lazy(() => import('./Components/Footer'));
 
 function App() {
