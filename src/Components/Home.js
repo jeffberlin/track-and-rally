@@ -1,10 +1,9 @@
-import React, { Suspense } from 'react';
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Title from './Title';
-
-const About = React.lazy(() => import('./About'));
-const Contact = React.lazy(() => import('./Contact'));
+import About from './About';
+import Contact from './Contact';
 
 function Home() {
   return (
@@ -14,10 +13,8 @@ function Home() {
         <Title />
       </Row>
     </Container>
-    <Suspense fallback={<div>Loading...</div>}>
-      <About />
-      <Contact  />
-    </Suspense>
+    <About />
+    <Contact  />
     </>
   )
 }
