@@ -23,7 +23,7 @@ function App() {
         <Route path="/" exact component={Home} />
         <Route component={Error} />
       </Switch>
-      <Footer />
+      <Footer className="lazyload" />
     </main>
   )
 }

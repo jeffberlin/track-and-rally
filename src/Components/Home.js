@@ -13,8 +13,8 @@ function Home() {
         <Title />
       </Row>
     </Container>
-    <About />
-    <Contact />
+    <About className="lazyload" />
+    <Contact className="lazyload" />
     </>
   )
 }
