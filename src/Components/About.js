@@ -1,11 +1,8 @@
 import React from 'react';
-import loadable from '@loadable/component';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-// import FacebookFeed from './FacebookFeed';
-
-const FacebookFeed = loadable(() => import('./FacebookFeed'))
+import FacebookFeed from './FacebookFeed';
 
 function About() {
   return (

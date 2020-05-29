@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 
 class FacebookFeed extends Component {
 
+  componentDidMount() {
+    window.FB.XFBML.parse();
+  }
   render() {
     return (
       <div
