@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 class FacebookFeed extends Component {
 
-  componentDidMount() {
-    window.FB.XFBML.parse();
-  }
+  // componentDidMount() {
+  //   window.FB.XFBML.parse();
+  // }
 
   render() {
     return (
@@ -23,7 +23,8 @@ class FacebookFeed extends Component {
           cite="https://www.facebook.com/trackandrally/"
           className="fb-xfbml-parse-ignore"
         >
-          <a href="https://www.facebook.com/trackandrally/">Track and Rally</a>
+          If the feed does not display, please try reloading the page.
+          <a href="https://www.trackandrally.com/">Track and Rally</a>
         </blockquote>
       </div>
     )
