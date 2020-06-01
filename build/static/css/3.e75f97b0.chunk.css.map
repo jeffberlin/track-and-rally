@@ -1,1 +1,0 @@
-{"version":3,"sources":["error.css"],"names":[],"mappings":"AAAA,OACE,yBACF","file":"3.e75f97b0.chunk.css","sourcesContent":[".error {\n  height: calc(100vh - 72px);\n}\n"]}
