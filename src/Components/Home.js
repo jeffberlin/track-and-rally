@@ -3,7 +3,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Title from './Title';
 import About from './About';
-// import Contact from './Contact';
 
 const Contact = React.lazy(() => import('./Contact'));
 
