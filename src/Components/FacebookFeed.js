@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class FacebookFeed extends Component {
 
   // componentDidMount() {
-  //   window.FB.XFBML.parse();
+  //   document.addEventListener('fb_init', e => FB.XFBML.parse());
   // }
 
   render() {

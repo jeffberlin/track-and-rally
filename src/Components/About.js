@@ -2,7 +2,8 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import FacebookFeed from './FacebookFeed';
+import Image from 'react-bootstrap/Image';
+// import FacebookFeed from './FacebookFeed';
 
 function About() {
   return (
@@ -18,8 +19,14 @@ function About() {
               Seat time is such an important part of progressing your racing career, which is why we are determined to help you find events that you never knew existed!
             </p>
           </Col>
-          <Col lg={6} md={{ span: 6, order: 1 }} sm={12} id="fb">
-            <FacebookFeed />
+          <Col lg={6} md={{ span: 6, order: 1 }} sm={12}>
+            <Image
+              src="./images/track-and-rally-stpr-min.jpg"
+              alt="Track and Rally at STPR 2019"
+              fluid
+              thumbnail
+            />
+            {/* <FacebookFeed /> */}
           </Col>
         </Row>
       </Container>

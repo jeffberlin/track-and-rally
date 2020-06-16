@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Title from './Title';
@@ -15,9 +15,7 @@ function Home() {
       </Row>
     </Container>
     <About />
-    <Suspense fallback={<div>Loading...</div>}>
-      <Contact />
-    </Suspense>
+    <Contact />
     </>
   )
 }
