@@ -8,10 +8,10 @@ function Title() {
       <p className="animated fadeIn slow delay-2s">Racer portal coming soon.</p>
       <div className="social-icons">
         <a href="https://www.facebook.com/trackandrally/" target="_blank" rel="noopener noreferrer">
-          <i className="font-awesome fab fa-facebook animated fadeInUp slow delay-1s" style={{marginRight: ".7rem"}}></i>
+          <i className="font-awesome fab fa-facebook animated fadeInUp slow delay-1s"></i>
         </a>
         <a href="https://www.instagram.com/trackandrally/" target="_blank" rel="noopener noreferrer">
-          <i className="font-awesome fab fa-instagram animated fadeInUp slow delay-1s" style={{marginRight: ".7rem"}}></i>
+          <i className="font-awesome fab fa-instagram animated fadeInUp slow delay-1s"></i>
         </a>
         <a href="https://www.twitter.com/trackandrally/" target="_blank" rel="noopener noreferrer">
           <i className="font-awesome fab fa-twitter animated fadeInUp slow delay-1s"></i>

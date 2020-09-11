@@ -53,6 +53,14 @@
   margin-bottom: 1.5rem;
 }
 
+.social-icons a {
+  margin-right: .7rem;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
 .font-awesome {
   font-size: 1.6rem;
 }

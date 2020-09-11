@@ -16,7 +16,7 @@ function Contact() {
             </p>
           </Col>
           <Col lg={6} md={6} sm={12} className="text-center contact-polaroids">
-            <div className="polaroid" style={{ marginBottom: "1.2rem" }}>
+            <div className="polaroid">
               <Image
                 className="contact-img"
                 src="./images/dave-gregory-track-min.jpg"

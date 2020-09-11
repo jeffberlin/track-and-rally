@@ -4,11 +4,11 @@ import Container from 'react-bootstrap/Container';
 
 function Navigation() {
   return (
-    <Navbar style={{position: 'absolute'}}>
+    <Navbar>
       <Container>
         <Navbar.Brand href="/">
           <img src="./images/track-and-rally-logo-min.png" alt="Track and Rally logo" height={40} />
-          <span className="niveau" style={{ color: '#4D4D4D', fontSize: '1.3rem'}}>Track & Rally</span>
+          <span className="niveau niveau-nav">Track & Rally</span>
         </Navbar.Brand>
       </Container>
     </Navbar>

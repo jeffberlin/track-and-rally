@@ -1,2 +1,0 @@
-(this["webpackJsonptrack-and-rally"]=this["webpackJsonptrack-and-rally"]||[]).push([[8],{47:function(a,e,t){"use strict";t.r(e);var l=t(0),n=t.n(l),r=t(43),c=t(37);e.default=function(){return n.a.createElement(r.a,{style:{position:"absolute"}},n.a.createElement(c.a,null,n.a.createElement(r.a.Brand,{href:"/"},n.a.createElement("img",{src:"./images/track-and-rally-logo-min.png",alt:"Track and Rally logo",height:40}),n.a.createElement("span",{className:"niveau",style:{color:"#4D4D4D",fontSize:"1.3rem"}},"Track & Rally"))))}}}]);
-//# sourceMappingURL=8.3ae791bf.chunk.js.map
