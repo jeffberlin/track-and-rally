@@ -1,5 +1,5 @@
 nav {
-  position: absolute;
+  position: absolute !important;
 }
 
 .header {
