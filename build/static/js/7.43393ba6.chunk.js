@@ -1,0 +1,2 @@
+(this["webpackJsonptrack-and-rally"]=this["webpackJsonptrack-and-rally"]||[]).push([[7],{45:function(e,a,t){"use strict";t.r(a);var n=t(0),r=t.n(n);a.default=function(){return r.a.createElement("div",{className:"footer"},r.a.createElement("footer",{className:"text-center"},r.a.createElement("span",null,"\xa9\xa0Track and Rally\xa0",(new Date).getFullYear())))}}}]);
+//# sourceMappingURL=7.43393ba6.chunk.js.map
