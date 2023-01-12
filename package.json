@@ -2,7 +2,8 @@
   "name": "track-and-rally",
   "version": "2.0.2",
   "engines": {
-    "node": "16.x"
+    "node": "16.x",
+    "npm": "9.x"
   },
   "private": true,
   "dependencies": {
