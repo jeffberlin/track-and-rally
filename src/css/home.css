@@ -1,0 +1,85 @@
+:root {
+  --green: #02c411;
+  --grey: #4D4D4D;
+  --white: #FFFFFF;
+  --black: #000000;
+}
+
+.main {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background: linear-gradient(rgba(251, 251, 251, 0.9), rgba(251, 251, 251, 0.9)), url("./track-and-rally-background-min.jpg");
+  border-bottom: 1px solid var(--green);
+  /* Set rules to fill background */
+  min-height: 100vh;
+  min-width: 100%;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  /* Set up positioning */
+  top: 0;
+  left: 0;
+}
+
+.title, .tag p, .font-awesome:hover, .events-button {
+  color: var(--green);
+}
+
+.tag h1, .font-awesome {
+  color: var(--grey);
+}
+
+.title, .events-button {
+  letter-spacing: .5px;
+}
+
+.tag {
+  padding: 35vh 0;
+}
+
+.tag h1 {
+  font-size: 3.2rem;
+}
+
+.tag p {
+  font-size: 1.2rem;
+}
+
+.social-icons {
+  margin-bottom: 1.55rem;
+}
+
+.social-icons a {
+  margin-right: .7rem;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.font-awesome {
+  height: 1.6rem;
+  line-height: 1;
+}
+
+.font-awesome:hover, .events-button:hover {
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+}
+
+.events-button {
+  border: 2px solid var(--green);
+  background: none;
+  padding: .5rem .8rem;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.events-button:hover {
+  color: var(--white);
+  background: var(--green);
+}

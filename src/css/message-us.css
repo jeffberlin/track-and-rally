@@ -1,0 +1,43 @@
+.message-us {
+  background-color: #4D4D4D;
+}
+
+.message-us p {
+  color: #FFFFFF;
+}
+
+.message-us a, .message-us a:hover {
+  color: #02c411;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+}
+
+.message-us a:hover {
+  opacity: .7;
+}
+
+.polaroid:first-child {
+  margin-bottom: 1.2rem;
+}
+
+div.polaroid {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 90%;
+}
+
+div.img-text {
+  padding: 1rem;
+  text-align: center;
+}
+
+.img-text p {
+  font-size: .8rem;
+  margin-bottom: 0;
+  color: #4D4D4D;
+}
+
+.message-us-img {
+  width: 100%; /* was 314px, 214px */
+  height: auto;
+}

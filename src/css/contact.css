@@ -1,0 +1,23 @@
+.contact {
+  padding-top: 8rem;
+  /* padding-bottom: 8rem; */
+  min-height: calc(100vh - 72px);
+}
+
+.contact a {
+  color: #02c411;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+}
+
+.contact a:hover {
+  opacity: .7;
+}
+
+.contact h1 {
+  font-family: balloon-urw,sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  /* font-size: 3.5rem; */
+  letter-spacing: .5px;
+}

@@ -1,0 +1,117 @@
+/*
+Green: #02c411
+Logo grey: #4D4D4D
+*/
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  text-align: inherit;
+}
+
+body {
+  webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.nunito {
+  font-family: 'Nunito', sans-serif;
+}
+
+.text-center {
+  text-align: -webkit-center !important;
+  text-align: center;
+}
+
+a, a:hover {
+	text-decoration: none !important;
+	color: inherit;
+	outline: none;
+	cursor: pointer;
+}
+
+p, a, span, label {
+  letter-spacing: .5px;
+}
+
+.section {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.about p, .message-us p, .contact p {
+  font-size: 1.15rem;
+}
+
+/* RESPONSIVE QUERIES */
+
+@media (max-width: 1224px) {
+  .tag h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  .fb-page {
+    width: 400px;
+  }
+}
+
+@media (max-width: 991px) {
+  .about p, .contact p {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 1.6rem !important;
+  }
+
+  .fb-page {
+    width: 300px;
+  }
+
+  div.polaroid {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .main {
+    background: linear-gradient(rgba(251, 251, 251, 0.9), rgba(251, 251, 251, 0.9)), url("./track-and-rally-background-750px-min.jpg");
+  }
+
+  .about p:last-child, .contact p {
+    margin-bottom: 1.2rem;
+  }
+
+  .section {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+
+  .fb-page {
+    width: calc(100vw - 30px);
+  }
+}
+
+@media (max-width: 552px) {
+  .tag h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 501px) {
+  .contact h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact h1 {
+    font-size: 2.5rem;
+  }
+}
